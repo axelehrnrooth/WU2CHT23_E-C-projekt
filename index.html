@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>SmartRecipes</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1>SmartRecipes</h1>
+        <div class="subheaders">
+            <h2 class="menu-item" onclick="openPageInNewTab('reviews')">Recensioner</h2>
+            <h2 class="menu-item" onclick="openPageInNewTab('home')">Hem</h2>
+            <h2 class="menu-item" onclick="openPageInNewTab('recipes')">Recept</h2>
+        </div>
+    </header>
+
+    <main class="recipes">
+        <div class="grid-box">
+            <div class="grid-content">
+                <h3>Scenario</h3>
+                <p>Stående framför kylskåpet, ögonen vandrar över tomma hyllor. Ett kulinariskt dilemma utspelar sig. Tankar snurrar, men inget recept tar form. Ensamheten i köket accentueras av en brist på inspiration. En sista desperat blick mot kylskåpet, och sedan ett axelryck – middagsmysteriet förblir olöst, och en kväll av oväntade smaker väntar.</p>
+            </div>
+        </div>
+        <div class="grid-box">
+            <div class="grid-content">
+                <h3>Lösning</h3>
+                <p>Är det ett problem du har? Smart Recepies är en receptsajt blir din räddning. Med ett enkelt knapptryck öppnar en värld av smakfulla möjligheter sig. Inspireras av kreativa rätter, och snart tronar en nylagad mästerverk på ditt bord. Slut på matdilemmat – tack vare receptsidans magi är middagsfrågetecknet löst och smakupplevelserna räddade.</p>
+            </div>
+        </div>
+        <div class="grid-box" id="recipe-button">
+            <div class="grid-content">
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
